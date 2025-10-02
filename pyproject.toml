@@ -4,6 +4,7 @@ version = "0.1.0"
 description = "Add your description here"
 requires-python = ">=3.13"
 dependencies = [
+    "cryptography>=46.0.2",
     "ipython>=9.6.0",
     "pytest>=8.4.2",
 ]
