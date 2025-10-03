@@ -8,5 +8,5 @@ async def root():
     return {"message": "Hello World"}
 
 @app.get("/items/{item_id}")
-async def read_item(item_id: str) -> dict[str, str]:
+async def read_item(item_id: int) -> dict[str, int]:
     return {"item_id": item_id}
